@@ -5,6 +5,8 @@ from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
 
+
+
 ps = PorterStemmer()
 
 def transform_text(text):
